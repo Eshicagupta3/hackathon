@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Styles from './index.module.css';
-import Image from 'next/image'
 
 const Home = () => {
   return (
@@ -15,10 +15,10 @@ const Home = () => {
           <p className={Styles.text}>Buy, Sell, and Trade NFTs</p>
         </div>
         <div className={Styles.right}>
-          <Image src='./heroImg.png' />
+          <img src='./heroImg.png'/>
         </div>
       </div>
-      <Image className={Styles.featuresImg} src='./features.png' />
+      <img className={Styles.featuresImg} src='./features.png' />
     </div>
   );
 };

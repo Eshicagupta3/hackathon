@@ -1,4 +1,5 @@
 /* pages/_app.js */
+/* eslint-disable @next/next/no-img-element */
 import '../styles/globals.css';
 import Link from 'next/link';
 import Image from 'next/image'
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <nav className='pl-28 pr-28 pt-8 flex items-center justify-between '>
         <Link href='/'>
           <div className='flex items-center '>
-            <Image className='w-16' alt='logo' src='./myx-log.webp' />
+            <img className='w-16' alt='logo' src='./myx-log.webp' />
             <p className='text-4xl font-bold text-blue-100 ml-1'>MyxTokens</p>
           </div>
         </Link>

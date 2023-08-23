@@ -109,7 +109,7 @@ export default function CreateItem() {
   return (
     <div className={Styles.main}>
       <div className={Styles.left}>
-        <img src='./create.png' />
+        <img src='./create.png'/>
       </div>
       <div className={`flex justify-center ${Styles.right}`}>
         <div className='w-1/2 flex flex-col pb-12'>
