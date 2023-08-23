@@ -10,8 +10,8 @@ import { marketplaceAddress } from '../config';
 
 import NFTMarketplace from '../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json';
 
-const rpcEndpointUrl = 'http://127.0.0.1:8545';
-// const rpcEndpointUrl = "https://rpc-mumbai.maticvigil.com";
+// const rpcEndpointUrl = 'http://127.0.0.1:8545';
+const rpcEndpointUrl = "https://rpc-mumbai.maticvigil.com";
 
 export default function MarketPlace() {
   const [nfts, setNfts] = useState([]);
