@@ -1,4 +1,5 @@
 import Styles from './index.module.css';
+import Image from 'next/image'
 
 const Home = () => {
   return (
@@ -14,10 +15,10 @@ const Home = () => {
           <p className={Styles.text}>Buy, Sell, and Trade NFTs</p>
         </div>
         <div className={Styles.right}>
-          <img src='./heroImg.png' />
+          <Image src='./heroImg.png' />
         </div>
       </div>
-      <img className={Styles.featuresImg} src='./features.png' />
+      <Image className={Styles.featuresImg} src='./features.png' />
     </div>
   );
 };
