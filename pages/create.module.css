@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-left: 120px;
+  color: azure;
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.button {
+  font-size: 32px;
+  background: linear-gradient(151.52deg, #fff, #ea721c), #477bff;
+}
+
+.input {
+  outline: none;
+  color: aliceblue;
+  background-color: #00000089;
+  border: 1.5px solid #ea721c;
+}

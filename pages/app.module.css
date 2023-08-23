@@ -1,0 +1,11 @@
+.link {
+  font-size: 32px;
+  margin-left: 8px;
+  color: aliceblue;
+  padding: 4px 12px;
+  border: 1.5px solid transparent;
+}
+
+.link:hover {
+  border: 1.5px solid azure;
+}

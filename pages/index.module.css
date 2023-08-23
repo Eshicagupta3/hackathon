@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-left: 120px;
+  color: azure;
+  flex: 1;
+}
+
+.heading {
+  line-height: 1;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.extra {
+  background: -webkit-linear-gradient(azure, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.right {
+  flex: 1;
+}
+
+.featuresImg {
+  padding-left: 120px;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.text {
+  margin-top: 40px;
+  font-weight: 400px;
+  font-size: 32px;
+}

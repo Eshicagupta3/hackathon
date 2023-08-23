@@ -1,0 +1,11 @@
+.card {
+  border: 2px solid white;
+}
+
+.card:hover {
+  box-shadow: 8px 8px #ea721c;
+}
+
+.button {
+  background: linear-gradient(151.52deg, #fff, #ea721c), #477bff;
+}
